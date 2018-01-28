@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraveldaily\Onboarding;
+namespace Laraveldaily\LaraOnboarding;
 
 use App\User;
 use Carbon\Carbon;

@@ -1,6 +1,6 @@
 {
-    "name": "laraveldaily/onboarding",
-    "description": "Emails for customers",
+    "name": "laraveldaily/laraonboarding",
+    "description": "Sending onboarding emails to registered users",
     "authors": [
         {
             "name": "Laravel Daily",
@@ -11,13 +11,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Laraveldaily\\Onboarding\\": "src/"
+            "Laraveldaily\\LaraOnboarding\\": "src/"
         }
     },
+    "version": "0.1.0",
     "extra": {
         "laravel": {
             "providers": [
-                "Laraveldaily\\Onboarding\\OnboardingServiceProvider"
+                "Laraveldaily\\LaraOnboarding\\OnboardingServiceProvider"
             ]
         }
     }

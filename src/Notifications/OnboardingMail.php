@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraveldaily\Onboarding;
+namespace Laraveldaily\LaraOnboarding;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
