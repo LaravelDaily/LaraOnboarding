@@ -1,0 +1,24 @@
+{
+    "name": "laraveldaily/onboarding",
+    "description": "Emails for customers",
+    "authors": [
+        {
+            "name": "Laravel Daily",
+            "email": "info@laraveldaily.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laraveldaily\\Onboarding\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraveldaily\\Onboarding\\OnboardingServiceProvider"
+            ]
+        }
+    }
+}

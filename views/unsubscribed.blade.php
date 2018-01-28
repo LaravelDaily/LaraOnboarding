@@ -1,0 +1,1 @@
+Email {{ $email }} successfully unsubscribed from our mailing list.
