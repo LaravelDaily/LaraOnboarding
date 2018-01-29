@@ -6,9 +6,6 @@ use App\User;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 
-//use Laraveldaily\Onboarding\Exception;
-
-
 class Onboarding extends Command
 {
     /**
@@ -57,7 +54,7 @@ class Onboarding extends Command
                 $user->notify(new OnboardingMail($email_data));
                 $notified_users++;
             }
-            \Log::info('Notified users: ' . $notified_users);
+            $this->info('Notified users: ' . $notified_users);
         }
     }
 }

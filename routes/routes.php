@@ -1,7 +1,7 @@
 <?php
 // LaravelDaily Onboarding package routes
 
-Route::get('laraveldaily-onboarding-unsubscribe/{email}', function ($email) {
+Route::get('onboarding-unsubscribe/{email}', function ($email) {
 
     $user = DB::table('users')->where('email', $email)->update(['unsubscribed_at' => \Carbon\Carbon::now()->format('Y-m-d H:i:s')]);
 
