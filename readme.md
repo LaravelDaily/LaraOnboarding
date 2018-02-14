@@ -10,5 +10,39 @@ Laravel package for sending scheduled emails to registered users, on their 2th, 
 
 ---
 
+## Usage and configuration
+
+Once a day run a command `php artisan onboarding:send` which will send the emails to all users registered X days ago, according to config file.
+
+By default, your file `config/onboarding.php` will contain two emails to send:
+
+```
+/**
+ * Days after the user registration, email subject and email template for the specified case
+ */
+return [
+    [
+        'template' => 'laraveldaily.onboarding.emails.example-mail',
+        'days' => 2,
+        'subject' => 'Second day email',
+    ],
+    [
+        'template' => 'laraveldaily.onboarding.emails.example-mail',
+        'days' => 4,
+        'subject' => 'Fourth day email',
+    ],
+    // add more in the same format...
+];
+
+```
+
+This configuration means that when running `php artisan onboarding:send`, system will send an email with template `example-mail` and subject 'Second day email' to users who registered 2 days ago (by `users.created_at`), and also `example-mail` to users who registered 4 days ago.
+
+So change these according to your needs.
+
+Email templates can be found in the folder `resources/views/laraveldaily/onboarding/emails`.
+
+---
+
 ## License
 The MIT License (MIT). Please see [License File](license.md) for more information.
