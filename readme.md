@@ -1,4 +1,4 @@
-Laravel package for sending scheduled emails to registered application users
+Laravel package for sending scheduled emails to registered users, on their 2th, 4th or Xth day after registration. Typical usage is "onboarding" emails during free trial period or first days of using your application.
 
 ---
 
