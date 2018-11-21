@@ -1,6 +1,6 @@
 Laravel package for sending scheduled emails to registered users, on their 2th, 4th or Xth day after registration. Typical usage is "onboarding" emails during free trial period or first days of using your application.
 
-![LaraOnboarding screenshot](http://webcoderpro.com/laravel-laraonboarding-demo.png)
+![LaraOnboarding screenshot](https://laraveldaily.com/wp-content/uploads/2018/11/laravel-laraonboarding-demo.png)
 
 ---
 
@@ -57,4 +57,4 @@ The MIT License (MIT). Please see [License File](license.md) for more informatio
 - Follow our [Twitter](https://twitter.com/dailylaravel) and [Blog](http://laraveldaily.com/blog)
 - Subscribe to our [newsletter with 20+ Laravel links every Thursday](http://laraveldaily.com/weekly-laravel-newsletter/)
 - Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-
+- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
